@@ -3,7 +3,10 @@ Data Analysis Tool - Exporter Module
 
 This module provides functionality for exporting analysis results.
 """
+import pdfkit
 
+# Configure pdfkit to use wkhtmltopdf
+pdfkit_config = pdfkit.configuration(wkhtmltopdf=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')  # Update this path!
 import os
 import pandas as pd
 import numpy as np
