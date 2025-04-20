@@ -1,0 +1,2 @@
+[console_scripts]
+dataanalysis = dataanalysistool.ui.cli:main
