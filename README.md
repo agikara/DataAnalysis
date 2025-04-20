@@ -41,7 +41,7 @@ DataAnalysisTool/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/DataAnalysisTool.git
+git clone https://github.com/agikara/DataAnalysis.git
 cd DataAnalysisTool
 
 # Create and activate a virtual environment (optional but recommended)
